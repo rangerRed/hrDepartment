@@ -1,0 +1,246 @@
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\bin\Debug\HR_Department.exe.config
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\bin\Debug\HR_Department.exe
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\bin\Debug\HR_Department.pdb
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department.csprojAssemblyReference.cache
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\MainWindow.g.cs
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\App.g.cs
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department_MarkupCompile.cache
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department_MarkupCompile.lref
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\MainWindow.baml
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department.g.resources
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department.Properties.Resources.resources
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.GenerateResource.cache
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.CoreCompileInputs.cache
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department.exe
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department.pdb
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\bin\Debug\EntityFramework.dll
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\bin\Debug\EntityFramework.xml
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department_Content.g.cs
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.CopyComplete
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\GeneralWindow.g.cs
+C:\Users\yardo\Desktop\димлом общий сбор\HR_Department\HR_Department\obj\Debug\GeneralWindow.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\HR_Department.exe.config
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\HR_Department.exe
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\HR_Department.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MainWindow.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\App.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department_Content.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department_MarkupCompile.cache
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department_MarkupCompile.lref
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MainWindow.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.g.resources
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.Properties.Resources.resources
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.GenerateResource.cache
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.CoreCompileInputs.cache
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.CopyComplete
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.exe
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\Resources\Login.jpg
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\Resources\icons8-google-16.png
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignColors.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignColors.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\App.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\GeneralWindow.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\GeneralWindow.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Warning.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Warning.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Thame\MenuButtonThame.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Thame\TextBoxThame.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Thame\ButtonThameTemp.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Pages1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Pages1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Page1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Page2.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Page1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Page2.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame2.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageFrame2_1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame2.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageFrame2_1.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\Resources\icons8-google-16.png
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\Resources\Login.jpg
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\HR_Department.exe.config
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\HR_Department.exe
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\HR_Department.pdb
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.dll
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.SqlServer.dll
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignColors.dll
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.xml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.SqlServer.xml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignColors.pdb
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\ru\EntityFramework.resources.dll
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\GeneralWindow.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\LoadWindow.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\MainWindow.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame2.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\Page1.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\Page2.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Pages1.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame2_1.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\Warning.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\App.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department_Content.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department_MarkupCompile.cache
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department_MarkupCompile.lref
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\App.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\GeneralWindow.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\LoadWindow.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\MainWindow.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame2.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\Page1.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\Page2.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Pages1.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame2_1.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\Thame\ButtonThameTemp.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\Thame\MenuButtonThame.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\Thame\TextBoxThame.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\Warning.baml
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.g.resources
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.Properties.Resources.resources
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.GenerateResource.cache
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.CoreCompileInputs.cache
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.CopyComplete
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.exe
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.pdb
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csprojAssemblyReference.cache
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame3.g.cs
+D:\tagiev18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame3.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame4.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame4.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame5.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame5.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageFrame3_1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageFrame3_1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageFrame4_1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageFrame5_1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageFrame4_1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageFrame5_1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\ControlzEx.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\ControlzEx.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\ControlzEx.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Thame\StandartButtonThame.baml
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\Resources\icons8-google-16.png
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\Resources\Login.jpg
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\HR_Department.exe.config
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\HR_Department.exe
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\HR_Department.pdb
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\ControlzEx.dll
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.dll
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.SqlServer.dll
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignColors.dll
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\ControlzEx.pdb
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\ControlzEx.xml
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.xml
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\EntityFramework.SqlServer.xml
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignColors.pdb
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\ru\EntityFramework.resources.dll
+C:\18P-1\diplom\HR_Department\HR_Department\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.AssemblyReference.cache
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\AddEmployee.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\AddEmployee2.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\GeneralWindow.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HomeStaff.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MainWindow.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame2.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame3.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame4.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame5.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Page1.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Page2.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Pages1.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame2_1.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame3_1.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame4_1.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame5_1.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Warning.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\App.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department_Content.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department_MarkupCompile.cache
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department_MarkupCompile.lref
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\App.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\AddEmployee.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\AddEmployee2.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\GeneralWindow.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HomeStaff.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MainWindow.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame2.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame3.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame4.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Frame5.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Page1.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Page2.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\MVVM\View\Pages1.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame2_1.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame3_1.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame4_1.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\PageFrame5_1.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Thame\ButtonThameTemp.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Thame\MenuButtonThame.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Thame\StandartButtonThame.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Thame\TextBoxThame.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\Warning.baml
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.g.resources
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.Properties.Resources.resources
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.GenerateResource.cache
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.CoreCompileInputs.cache
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csproj.CopyComplete
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.exe
+C:\18P-1\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\seniorityCalculator.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\seniorityCalculator.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\department.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\department.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Update.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\Update.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageAddEmployee.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageAddEmployee.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageAddEmployee2.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageAddEmployee3.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageAddEmployee4.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageAddEmployee2.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageAddEmployee3.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\PageAddEmployee4.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\dismiss_employee.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\dismiss_employee.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\HR_Department.csprojAssemblyReference.cache
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\employmet_history_page.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\employmet_history_page.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\update_employment_history.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\update_employment_history.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\search_history_e.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\search_history_e.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\Docx\Т-1.docx
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\Docx\Т-8.docx
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Debug\Docx\Т-2.docx
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\T2.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\T2.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\additional_fields_window.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Debug\additional_fields_window.baml

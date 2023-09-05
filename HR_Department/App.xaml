@@ -1,0 +1,36 @@
+﻿<Application x:Class="HR_Department.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:viewModel="clr-namespace:HR_Department.MVVM.ViewModel"
+             xmlns:view="clr-namespace:HR_Department.MVVM.View"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HR_Department"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Thame/MenuButtonThame.xaml"/>
+                <ResourceDictionary Source="Thame/TextBoxThame.xaml"/>
+                <ResourceDictionary Source="Thame/ButtonThameTemp.xaml"/>
+                <ResourceDictionary Source="Thame/StandartButtonThame.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Blue.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:PagesViewModel}">
+                <view:Pages1/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:PageFrame2ViewModel}">
+                <view:Frame2/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:PageFrame4ViewModel}">
+                <view:Frame4/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:PageFrame5ViewModel}">
+                <view:Frame5/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+    
+</Application>

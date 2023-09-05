@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="login" />
+    </Key>
+    <Property Name="login" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Воинский учетСот">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Код сотрудника" Type="int" Nullable="false" />
+    <Property Name="Состав" Type="nvarchar" MaxLength="50" />
+    <Property Name="Категория годности" Type="nvarchar" MaxLength="50" />
+    <Property Name="Номер ВУС" Type="nvarchar" MaxLength="7" />
+    <Property Name="Военно учетная специальность" Type="nvarchar" MaxLength="100" />
+    <Property Name="Воинское звание" Type="nvarchar" MaxLength="50" />
+    <Property Name="Категория запаса" Type="nvarchar" MaxLength="50" />
+    <Property Name="Коммисариат" Type="nvarchar" MaxLength="50" />
+    <Property Name="Спец учет" Type="nvarchar" MaxLength="50" />
+    <Property Name="Отметка о снятии" Type="nvarchar" MaxLength="50" />
+    <Property Name="Общий учет" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="График работы">
+    <Key>
+      <PropertyRef Name="Код штатной единиц" />
+    </Key>
+    <Property Name="Код штатной единиц" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Код подразделения" Type="int" Nullable="false" />
+    <Property Name="Код должности" Type="int" Nullable="false" />
+    <Property Name="Количество ставок" Type="int" Nullable="false" />
+    <Property Name="Оклад" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Должность">
+    <Key>
+      <PropertyRef Name="Код должности" />
+    </Key>
+    <Property Name="Код должности" Type="int" Nullable="false" />
+    <Property Name="Название" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="дополнительные поля">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="характер работы" Type="nvarchar" MaxLength="50" />
+    <Property Name="режим труда" Type="nvarchar" MaxLength="50" />
+    <Property Name="продолжительность недели" Type="nvarchar" MaxLength="50" />
+    <Property Name="график работы" Type="nvarchar" MaxLength="50" />
+    <Property Name="испытательный срок" Type="int" />
+    <Property Name="вредные производственные факторы" Type="nvarchar" MaxLength="50" />
+    <Property Name="основание приема на работу" Type="nvarchar" MaxLength="50" />
+    <Property Name="разряд" Type="nvarchar" MaxLength="50" />
+    <Property Name="квалификационная категория" Type="nvarchar" MaxLength="50" />
+    <Property Name="работник подчиняется" Type="nvarchar" MaxLength="50" />
+    <Property Name="место нахождение служебного помещения" Type="nvarchar" MaxLength="50" />
+    <Property Name="обязанности" Type="nvarchar" MaxLength="50" />
+    <Property Name="длительность отпуска" Type="nvarchar" MaxLength="50" />
+    <Property Name="алфавит" Type="nvarchar" MaxLength="1" />
+    <Property Name="код сотрудника" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Информация об организации">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Краткое название" Type="nvarchar" MaxLength="100" />
+    <Property Name="Полное наименование" Type="nvarchar" MaxLength="350" />
+    <Property Name="Город" Type="nvarchar" MaxLength="50" />
+    <Property Name="Адрес" Type="nvarchar" MaxLength="100" />
+    <Property Name="ИНН" Type="nvarchar" MaxLength="13" />
+    <Property Name="КПП" Type="nvarchar" MaxLength="11" />
+    <Property Name="ОКПО" Type="nvarchar" MaxLength="7" />
+    <Property Name="Расс. счет" Type="nvarchar" MaxLength="20" />
+    <Property Name="Корр. счет" Type="nvarchar" MaxLength="20" />
+    <Property Name="ОГРН" Type="nvarchar" MaxLength="12" />
+    <Property Name="Рег. номер в ПФР" Type="nvarchar" MaxLength="12" />
+    <Property Name="Код ТО ПФР" Type="nvarchar" MaxLength="50" />
+    <Property Name="В банке" Type="nvarchar" MaxLength="50" />
+    <Property Name="БИК банка" Type="nvarchar" MaxLength="9" />
+    <Property Name="ФИО Руководителя" Type="nvarchar" MaxLength="150" />
+    <Property Name="Должность руководителя" Type="nvarchar" MaxLength="150" />
+    <Property Name="ФИО Главного бухгалтера" Type="nvarchar" MaxLength="150" />
+    <Property Name="ФИО работника кадровой службы" Type="nvarchar" MaxLength="150" />
+    <Property Name="Должность работника кадровой службы" Type="nvarchar" MaxLength="150" />
+    <Property Name="Телефон/факс" Type="nvarchar" MaxLength="50" />
+    <Property Name="Примечание" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ОбразовниеСот">
+    <Key>
+      <PropertyRef Name="ID диплома" />
+    </Key>
+    <Property Name="ID диплома" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ВО Наименование документа об образовании" Type="nvarchar" MaxLength="50" />
+    <Property Name="ВОСерия" Type="nvarchar" MaxLength="6" />
+    <Property Name="ВОНомер" Type="nvarchar" MaxLength="7" />
+    <Property Name="ВОТип образования" Type="nvarchar" MaxLength="50" />
+    <Property Name="ВОНаименование учебного заведения" Type="nvarchar" MaxLength="50" />
+    <Property Name="ВОСпециальность" Type="nvarchar" MaxLength="50" />
+    <Property Name="ВОКвалификация" Type="nvarchar" MaxLength="50" />
+    <Property Name="ВОДата окончания" Type="date" />
+    <Property Name="Наименование документа об образовании" Type="nvarchar" MaxLength="50" />
+    <Property Name="Серия" Type="nvarchar" MaxLength="6" />
+    <Property Name="Номер" Type="nvarchar" MaxLength="7" />
+    <Property Name="Тип образования" Type="nvarchar" MaxLength="50" />
+    <Property Name="Наименование учебного заведения" Type="nvarchar" MaxLength="50" />
+    <Property Name="Специальность" Type="nvarchar" MaxLength="50" />
+    <Property Name="Квалификация" Type="nvarchar" MaxLength="50" />
+    <Property Name="Дата окончания" Type="date" />
+    <Property Name="ПОНаименование" Type="nvarchar" MaxLength="50" />
+    <Property Name="ПОДокумент№" Type="nvarchar" MaxLength="15" />
+    <Property Name="[ПОДата выдачи" Type="date" />
+    <Property Name="[ПОВыдавший орган" Type="nvarchar" MaxLength="50" />
+    <Property Name="[ПОУченая степень" Type="nvarchar" MaxLength="50" />
+    <Property Name="ПОНаправление по диплому" Type="nvarchar" MaxLength="50" />
+    <Property Name="Код сотрудника" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Основания увольнения">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Статья ФЗ" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Пункт" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="Основания увольнения" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Отпуска">
+    <Key>
+      <PropertyRef Name="№ приказа" />
+    </Key>
+    <Property Name="№ приказа" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Основание" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Дата подписи" Type="date" Nullable="false" />
+    <Property Name="Код сотрудника" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Паспортные данныеСот">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Код сотрудника" Type="int" />
+    <Property Name="Код подразделения" Type="nvarchar" MaxLength="7" />
+    <Property Name="Серия паспорта" Type="nvarchar" MaxLength="4" />
+    <Property Name="Номер паспорта" Type="nvarchar" MaxLength="6" />
+    <Property Name="Кем выдан" Type="nvarchar" MaxLength="50" />
+    <Property Name="Дата выдачи" Type="date" />
+    <Property Name="Срок действия" Type="date" />
+    <Property Name="МРДата регистрации" Type="date" />
+    <Property Name="МРСрок действия до" Type="date" />
+    <Property Name="МРСтрана" Type="nvarchar" MaxLength="50" />
+    <Property Name="МРРегион" Type="nvarchar" MaxLength="50" />
+    <Property Name="МРПочтовый индекс" Type="nvarchar" MaxLength="6" />
+    <Property Name="МРГород" Type="nvarchar" MaxLength="50" />
+    <Property Name="МР Улица" Type="nvarchar" MaxLength="50" />
+    <Property Name="МРДом" Type="nvarchar" MaxLength="50" />
+    <Property Name="МРКорпус" Type="nvarchar" MaxLength="50" />
+    <Property Name="МРКвартира" Type="nvarchar" MaxLength="5" />
+    <Property Name="ФПДата регистрации" Type="date" />
+    <Property Name="ФПСрок действия до" Type="date" />
+    <Property Name="ФПСтрана" Type="nvarchar" MaxLength="50" />
+    <Property Name="ФПРегион" Type="nvarchar" MaxLength="50" />
+    <Property Name="ФППочтовый индекс" Type="nvarchar" MaxLength="6" />
+    <Property Name="ФПГород" Type="nvarchar" MaxLength="50" />
+    <Property Name="ФП Улица" Type="nvarchar" MaxLength="50" />
+    <Property Name="ФПДом" Type="nvarchar" MaxLength="50" />
+    <Property Name="ФПКорпус" Type="nvarchar" MaxLength="50" />
+    <Property Name="ФПКвартира" Type="nvarchar" MaxLength="5" />
+    <Property Name="ВУСерия" Type="nvarchar" MaxLength="4" />
+    <Property Name="ВУНомер" Type="nvarchar" MaxLength="6" />
+    <Property Name="ВУСрок действия до" Type="date" />
+    <Property Name="ЗПСерия" Type="nvarchar" MaxLength="2" />
+    <Property Name="ЗПНомер" Type="nvarchar" MaxLength="7" />
+    <Property Name="ЗПДата выдачи" Type="date" />
+    <Property Name="ЗПВыдавший орган" Type="nvarchar" MaxLength="50" />
+    <Property Name="ЗПСрок действия до" Type="date" />
+  </EntityType>
+  <EntityType Name="Подразделение">
+    <Key>
+      <PropertyRef Name="Код подразделения" />
+    </Key>
+    <Property Name="Код подразделения" Type="int" Nullable="false" />
+    <Property Name="Название" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Приказ о переводе">
+    <Key>
+      <PropertyRef Name="№ приакза" />
+    </Key>
+    <Property Name="№ приакза" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Дата утверждения" Type="date" Nullable="false" />
+    <Property Name="Код сотрудника" Type="int" Nullable="false" />
+    <Property Name="Код штатной еденицы" Type="int" Nullable="false" />
+    <Property Name="Основание" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Приказ о приеме">
+    <Key>
+      <PropertyRef Name="№ приказа" />
+    </Key>
+    <Property Name="№ приказа" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Дата подписи" Type="date" Nullable="false" />
+    <Property Name="Код сотрудника" Type="int" Nullable="false" />
+    <Property Name="Код штатной единицы" Type="int" Nullable="false" />
+    <Property Name="Количество ставок" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Приказ об увольнении">
+    <Key>
+      <PropertyRef Name="№ приказа" />
+    </Key>
+    <Property Name="№ приказа" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Дата увольнения" Type="date" Nullable="false" />
+    <Property Name="Основание увольнения" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Статья" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Пункт" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="Номер приказа на увольнение" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Дата приказа на увольнение" Type="date" Nullable="false" />
+    <Property Name="Код сотрудника" Type="int" Nullable="false" />
+    <Property Name="IDОснование" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Сотрудник">
+    <Key>
+      <PropertyRef Name="Табельный номер" />
+    </Key>
+    <Property Name="Табельный номер" Type="int" Nullable="false" />
+    <Property Name="Дата приема на работу" Type="date" />
+    <Property Name="Фамилия" Type="nvarchar" MaxLength="50" />
+    <Property Name="Имя" Type="nvarchar" MaxLength="50" />
+    <Property Name="Отчество" Type="nvarchar" MaxLength="50" />
+    <Property Name="Дата рождения" Type="date" />
+    <Property Name="Пол" Type="nvarchar" MaxLength="10" />
+    <Property Name="Семейное положение" Type="nvarchar" MaxLength="70" />
+    <Property Name="Телефон домашний" Type="nvarchar" MaxLength="11" />
+    <Property Name="Телефон рабочий" Type="nvarchar" MaxLength="11" />
+    <Property Name="Телефон мобильный" Type="nvarchar" MaxLength="11" />
+    <Property Name="Должность" Type="nvarchar" MaxLength="50" />
+    <Property Name="Отдел" Type="nvarchar" MaxLength="50" />
+    <Property Name="Кабинет" Type="nvarchar" MaxLength="5" />
+    <Property Name="ИНН" Type="nvarchar" MaxLength="12" />
+    <Property Name="СНИЛС" Type="nvarchar" MaxLength="11" />
+    <Property Name="№ мед полиса" Type="nvarchar" MaxLength="16" />
+    <Property Name="E-mail" Type="nvarchar" MaxLength="70" />
+    <Property Name="Национальность" Type="nvarchar" MaxLength="50" />
+    <Property Name="Гражданство" Type="nvarchar" MaxLength="100" />
+    <Property Name="Место рождения" Type="nvarchar" MaxLength="100" />
+    <Property Name="название фото" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="Трудовая деятельность">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Код сотрудника" Type="int" Nullable="false" />
+    <Property Name="Дата приема на работу" Type="date" />
+    <Property Name="Должность" Type="nvarchar" MaxLength="50" />
+    <Property Name="№ договора" Type="nvarchar" MaxLength="20" />
+    <Property Name="Дата договора" Type="date" />
+    <Property Name="№ приказа" Type="nvarchar" MaxLength="20" />
+    <Property Name="Дата приказа" Type="date" />
+    <Property Name="Срок договора" Type="date" />
+    <Property Name="Тип места работы" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Стаж работы общий" Type="nvarchar" MaxLength="50" />
+    <Property Name="Стаж работы страховой" Type="nvarchar" MaxLength="50" />
+    <Property Name="Стаж работы на предприятии" Type="nvarchar" MaxLength="50" />
+    <Property Name="Состоит в профсюзе" Type="bit" />
+    <Property Name="Оклад" Type="float" />
+    <Property Name="Надбавка" Type="float" />
+    <Property Name="Всего рублей" Type="float" />
+    <Property Name="Оклад с надбавкой" Type="float" />
+    <Property Name="КТУ" Type="float" />
+    <Property Name="Ставка" Type="float" />
+    <Property Name="Чето рубли какието ваще хз" Type="float" />
+  </EntityType>
+  <EntityType Name="Трудовая книжка">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Код сотрудника" Type="int" Nullable="false" />
+    <Property Name="№пп" Type="int" Nullable="false" />
+    <Property Name="Дата" Type="date" />
+    <Property Name="Сведения о приеме переводах и увольнении" Type="nvarchar" MaxLength="200" />
+    <Property Name="ОснованиеНаименование" Type="nvarchar" MaxLength="50" />
+    <Property Name="ОснованиеДата" Type="date" />
+    <Property Name="ОснованиеНомер" Type="nvarchar" MaxLength="20" />
+    <Property Name="ОснованиеСерия" Type="nvarchar" MaxLength="20" />
+    <Property Name="Вид кадрового мероприятия" Type="nvarchar" MaxLength="50" />
+    <Property Name="Статья ФЗ причины при увольнении" Type="nvarchar" MaxLength="150" />
+    <Property Name="Пункт ФЗ причины при увольнении" Type="nvarchar" MaxLength="3" />
+    <Property Name="выполняемая функция(при наличии)" Type="nvarchar" MaxLength="500" />
+    <Property Name="С даты" Type="date" />
+    <Property Name="по дату" Type="date" />
+    <Property Name="признак отмены записи" Type="bit" />
+    <Property Name="дата отмены записи" Type="date" />
+    <Property Name="совместитель" Type="bit" />
+    <Property Name="должность" Type="nvarchar" MaxLength="50" />
+    <Property Name="отдел" Type="nvarchar" MaxLength="50" />
+    <Property Name="работа в районах крайнего севера" Type="nvarchar" MaxLength="150" />
+    <Property Name="UUID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Воинский учетСот_Сотрудник">
+    <End Role="Сотрудник" Type="Self.Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Воинский учетСот" Type="Self.Воинский учетСот" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный номер" />
+      </Principal>
+      <Dependent Role="Воинский учетСот">
+        <PropertyRef Name="Код сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_График работы_Должность">
+    <End Role="Должность" Type="Self.Должность" Multiplicity="1" />
+    <End Role="График работы" Type="Self.График работы" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Должность">
+        <PropertyRef Name="Код должности" />
+      </Principal>
+      <Dependent Role="График работы">
+        <PropertyRef Name="Код должности" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_График работы_Подразделение">
+    <End Role="Подразделение" Type="Self.Подразделение" Multiplicity="1" />
+    <End Role="График работы" Type="Self.График работы" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Подразделение">
+        <PropertyRef Name="Код подразделения" />
+      </Principal>
+      <Dependent Role="График работы">
+        <PropertyRef Name="Код подразделения" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_дополнительные поля_Сотрудник">
+    <End Role="Сотрудник" Type="Self.Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="дополнительные поля" Type="Self.дополнительные поля" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный номер" />
+      </Principal>
+      <Dependent Role="дополнительные поля">
+        <PropertyRef Name="код сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ОбразовниеСот_Сотрудник">
+    <End Role="Сотрудник" Type="Self.Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ОбразовниеСот" Type="Self.ОбразовниеСот" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный номер" />
+      </Principal>
+      <Dependent Role="ОбразовниеСот">
+        <PropertyRef Name="Код сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Отпуска_Сотрудник">
+    <End Role="Сотрудник" Type="Self.Сотрудник" Multiplicity="1" />
+    <End Role="Отпуска" Type="Self.Отпуска" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный номер" />
+      </Principal>
+      <Dependent Role="Отпуска">
+        <PropertyRef Name="Код сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Паспортные данныеСот_Сотрудник">
+    <End Role="Сотрудник" Type="Self.Сотрудник" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Паспортные данныеСот" Type="Self.Паспортные данныеСот" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный номер" />
+      </Principal>
+      <Dependent Role="Паспортные данныеСот">
+        <PropertyRef Name="Код сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Приказ о переводе_Сотрудник">
+    <End Role="Сотрудник" Type="Self.Сотрудник" Multiplicity="1" />
+    <End Role="Приказ о переводе" Type="Self.Приказ о переводе" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный номер" />
+      </Principal>
+      <Dependent Role="Приказ о переводе">
+        <PropertyRef Name="Код сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Приказ о приеме_Сотрудник">
+    <End Role="Сотрудник" Type="Self.Сотрудник" Multiplicity="1" />
+    <End Role="Приказ о приеме" Type="Self.Приказ о приеме" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный номер" />
+      </Principal>
+      <Dependent Role="Приказ о приеме">
+        <PropertyRef Name="Код сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Приказ об увольнении_Основания увольнения">
+    <End Role="Основания увольнения" Type="Self.Основания увольнения" Multiplicity="1" />
+    <End Role="Приказ об увольнении" Type="Self.Приказ об увольнении" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Основания увольнения">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Приказ об увольнении">
+        <PropertyRef Name="IDОснование" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Трудовая деятельность_Сотрудник">
+    <End Role="Сотрудник" Type="Self.Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Трудовая деятельность" Type="Self.Трудовая деятельность" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный номер" />
+      </Principal>
+      <Dependent Role="Трудовая деятельность">
+        <PropertyRef Name="Код сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Трудовая книжка_Сотрудник">
+    <End Role="Сотрудник" Type="Self.Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Трудовая книжка" Type="Self.Трудовая книжка" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный номер" />
+      </Principal>
+      <Dependent Role="Трудовая книжка">
+        <PropertyRef Name="Код сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ModelContainer">
+    <EntitySet Name="Login" EntityType="Self.Login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Воинский учетСот" EntityType="Self.Воинский учетСот" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="График работы" EntityType="Self.График работы" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Должность" EntityType="Self.Должность" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="дополнительные поля" EntityType="Self.дополнительные поля" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Информация об организации" EntityType="Self.Информация об организации" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ОбразовниеСот" EntityType="Self.ОбразовниеСот" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Основания увольнения" EntityType="Self.Основания увольнения" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Отпуска" EntityType="Self.Отпуска" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Паспортные данныеСот" EntityType="Self.Паспортные данныеСот" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Подразделение" EntityType="Self.Подразделение" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Приказ о переводе" EntityType="Self.Приказ о переводе" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Приказ о приеме" EntityType="Self.Приказ о приеме" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Приказ об увольнении" EntityType="Self.Приказ об увольнении" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Сотрудник" EntityType="Self.Сотрудник" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Трудовая деятельность" EntityType="Self.Трудовая деятельность" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Трудовая книжка" EntityType="Self.Трудовая книжка" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Воинский учетСот_Сотрудник" Association="Self.FK_Воинский учетСот_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Воинский учетСот" EntitySet="Воинский учетСот" />
+    </AssociationSet>
+    <AssociationSet Name="FK_График работы_Должность" Association="Self.FK_График работы_Должность">
+      <End Role="Должность" EntitySet="Должность" />
+      <End Role="График работы" EntitySet="График работы" />
+    </AssociationSet>
+    <AssociationSet Name="FK_График работы_Подразделение" Association="Self.FK_График работы_Подразделение">
+      <End Role="Подразделение" EntitySet="Подразделение" />
+      <End Role="График работы" EntitySet="График работы" />
+    </AssociationSet>
+    <AssociationSet Name="FK_дополнительные поля_Сотрудник" Association="Self.FK_дополнительные поля_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="дополнительные поля" EntitySet="дополнительные поля" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ОбразовниеСот_Сотрудник" Association="Self.FK_ОбразовниеСот_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="ОбразовниеСот" EntitySet="ОбразовниеСот" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Отпуска_Сотрудник" Association="Self.FK_Отпуска_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Отпуска" EntitySet="Отпуска" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Паспортные данныеСот_Сотрудник" Association="Self.FK_Паспортные данныеСот_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Паспортные данныеСот" EntitySet="Паспортные данныеСот" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Приказ о переводе_Сотрудник" Association="Self.FK_Приказ о переводе_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Приказ о переводе" EntitySet="Приказ о переводе" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Приказ о приеме_Сотрудник" Association="Self.FK_Приказ о приеме_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Приказ о приеме" EntitySet="Приказ о приеме" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Приказ об увольнении_Основания увольнения" Association="Self.FK_Приказ об увольнении_Основания увольнения">
+      <End Role="Основания увольнения" EntitySet="Основания увольнения" />
+      <End Role="Приказ об увольнении" EntitySet="Приказ об увольнении" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Трудовая деятельность_Сотрудник" Association="Self.FK_Трудовая деятельность_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Трудовая деятельность" EntitySet="Трудовая деятельность" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Трудовая книжка_Сотрудник" Association="Self.FK_Трудовая книжка_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Трудовая книжка" EntitySet="Трудовая книжка" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

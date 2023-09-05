@@ -1,0 +1,50 @@
+﻿<Page x:Class="HR_Department.employmet_history_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HR_Department"
+      mc:Ignorable="d" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      d:DesignHeight="800" d:DesignWidth="1100" Background="AliceBlue"
+      Title="employmet_history_page">
+
+    <Grid>
+        <TextBlock Text="ФИО" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30"/>
+        <TextBlock x:Name="name" Text="" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,30"/>
+        <DataGrid IsReadOnly="True" x:Name="data_grid_history_employment" AutoGenerateColumns="False" Margin="30,100,30,150">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding ID}" Visibility="Hidden"/>
+                <DataGridTextColumn Binding="{Binding Код_сотрудника}" Visibility="Hidden"/>
+                <DataGridTextColumn Binding="{Binding №пп}" Header="№пп"/>
+                <DataGridTextColumn Binding="{Binding Дата}" Header="Дата"/>
+                <DataGridTextColumn Binding="{Binding Сведения о приеме переводах и увольнении}" Header="Сведения о приеме переводах и увольнении"/>
+                <DataGridTextColumn Binding="{Binding ОснованиеНаименование}" Header="Основание наименование"/>
+                <DataGridTextColumn Binding="{Binding ОснованиеДата}" Header="Основание дата"/>
+                <DataGridTextColumn Binding="{Binding ОснованиеНомер}" Header="Основание номер"/>
+                <DataGridTextColumn Binding="{Binding ОснованиеСерия}" Header="Основание серия" />
+                <DataGridTextColumn Binding="{Binding Вид кадрового мероприятия}" Header="Вид кадрового мероприятия"/>
+                <DataGridTextColumn Binding="{Binding Статья ФЗ причины при увольнении}" Header="Статья ФЗ причины при увольнении"/>
+                <DataGridTextColumn Binding="{Binding Пункт ФЗ причины при увольнении}" Header="Пункт ФЗ причины при увольнении"/>
+                <DataGridTextColumn Binding="{Binding выполняемая функция(при наличии)}" Header="Выполняемая функция"/>
+                <DataGridTextColumn Binding="{Binding С даты}"  Header="С даты"/>
+                <DataGridTextColumn Binding="{Binding по дату}"  Header="По дату"/>
+                <DataGridTextColumn Binding="{Binding признак отмены записи}"  Header="Признак отмены записи"/>
+                <DataGridTextColumn Binding="{Binding дата отмены записи}"  Header="Дата отмены записи"/>
+                <DataGridTextColumn Binding="{Binding совместитель}"  Header="Совместитель"/>
+                <DataGridTextColumn Binding="{Binding должность}"  Header="Должность"/>
+                <DataGridTextColumn Binding="{Binding отдел}"  Header="Отдел"/>
+                <DataGridTextColumn Binding="{Binding работа в районах крайнего севера}"  Header="Работа в районах крайнего севера"/>
+                <DataGridTextColumn Binding="{Binding UUID}"  Header="UUID"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Background="#00678E" x:Name="add" Click="add_click" Content="Добавить" FontSize="18" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30,60"/>
+        <Button Background="#00678E" x:Name="del" Click="delete_click" Content="Удалить" FontSize="18" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="290,60"/>
+        <Button Background="#00678E" x:Name="update" Click="update_click" Content="Изменить" FontSize="18" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="160,60"/>
+        <Button Background="#00678E" x:Name="exit" Click="go_back_click" Content="Выход" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,60"/>
+        <Button Grid.Row="1" Background="White" Width="37" Height="37" Margin="0,0,400,57" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="refrash">
+            <Image Source="/Resources/icons8-доступные-обновления-30.png" Width="25" Height="25" Margin="-20"/>
+        </Button>
+
+    </Grid>
+</Page>

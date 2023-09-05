@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HR_DepartmentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Login" EntityType="Model.Login" />
+    <EntitySet Name="sysdiagrams" EntityType="Model.sysdiagrams" />
+    <EntitySet Name="Воинский_учетСот" EntityType="Model.Воинский_учетСот" />
+    <EntitySet Name="График_работы" EntityType="Model.График_работы" />
+    <EntitySet Name="Должность" EntityType="Model.Должность" />
+    <EntitySet Name="дополнительные_поля" EntityType="Model.дополнительные_поля" />
+    <EntitySet Name="Информация_об_организации" EntityType="Model.Информация_об_организации" />
+    <EntitySet Name="ОбразовниеСот" EntityType="Model.ОбразовниеСот" />
+    <EntitySet Name="Основания_увольнения" EntityType="Model.Основания_увольнения" />
+    <EntitySet Name="Отпуска" EntityType="Model.Отпуска" />
+    <EntitySet Name="Паспортные_данныеСот" EntityType="Model.Паспортные_данныеСот" />
+    <EntitySet Name="Подразделение" EntityType="Model.Подразделение" />
+    <EntitySet Name="Приказ_о_переводе" EntityType="Model.Приказ_о_переводе" />
+    <EntitySet Name="Приказ_о_приеме" EntityType="Model.Приказ_о_приеме" />
+    <EntitySet Name="Приказ_об_увольнении" EntityType="Model.Приказ_об_увольнении" />
+    <EntitySet Name="Сотрудник" EntityType="Model.Сотрудник" />
+    <EntitySet Name="Трудовая_деятельность" EntityType="Model.Трудовая_деятельность" />
+    <EntitySet Name="Трудовая_книжка" EntityType="Model.Трудовая_книжка" />
+    <AssociationSet Name="FK_Воинский_учетСот_Сотрудник" Association="Model.FK_Воинский_учетСот_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Воинский_учетСот" EntitySet="Воинский_учетСот" />
+    </AssociationSet>
+    <AssociationSet Name="FK_График_работы_Должность" Association="Model.FK_График_работы_Должность">
+      <End Role="Должность" EntitySet="Должность" />
+      <End Role="График_работы" EntitySet="График_работы" />
+    </AssociationSet>
+    <AssociationSet Name="FK_График_работы_Подразделение" Association="Model.FK_График_работы_Подразделение">
+      <End Role="Подразделение" EntitySet="Подразделение" />
+      <End Role="График_работы" EntitySet="График_работы" />
+    </AssociationSet>
+    <AssociationSet Name="FK_дополнительные_поля_Сотрудник" Association="Model.FK_дополнительные_поля_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="дополнительные_поля" EntitySet="дополнительные_поля" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ОбразовниеСот_Сотрудник" Association="Model.FK_ОбразовниеСот_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="ОбразовниеСот" EntitySet="ОбразовниеСот" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Приказ_об_увольнении_Основания_увольнения" Association="Model.FK_Приказ_об_увольнении_Основания_увольнения">
+      <End Role="Основания_увольнения" EntitySet="Основания_увольнения" />
+      <End Role="Приказ_об_увольнении" EntitySet="Приказ_об_увольнении" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Отпуска_Сотрудник" Association="Model.FK_Отпуска_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Отпуска" EntitySet="Отпуска" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Паспортные_данныеСот_Сотрудник" Association="Model.FK_Паспортные_данныеСот_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Паспортные_данныеСот" EntitySet="Паспортные_данныеСот" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Приказ_о_переводе_Сотрудник" Association="Model.FK_Приказ_о_переводе_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Приказ_о_переводе" EntitySet="Приказ_о_переводе" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Приказ_о_приеме_Сотрудник" Association="Model.FK_Приказ_о_приеме_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Приказ_о_приеме" EntitySet="Приказ_о_приеме" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Трудовая_деятельность_Сотрудник" Association="Model.FK_Трудовая_деятельность_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Трудовая_деятельность" EntitySet="Трудовая_деятельность" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Трудовая_книжка_Сотрудник" Association="Model.FK_Трудовая_книжка_Сотрудник">
+      <End Role="Сотрудник" EntitySet="Сотрудник" />
+      <End Role="Трудовая_книжка" EntitySet="Трудовая_книжка" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="login1" />
+    </Key>
+    <Property Name="login1" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Воинский_учетСот">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Код_сотрудника" Type="Int32" Nullable="false" />
+    <Property Name="Состав" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Категория_годности" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Номер_ВУС" Type="String" MaxLength="7" FixedLength="false" Unicode="true" />
+    <Property Name="Военно_учетная_специальность" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Воинское_звание" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Категория_запаса" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Коммисариат" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Спец_учет" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Отметка_о_снятии" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Общий_учет" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Сотрудник" Relationship="Model.FK_Воинский_учетСот_Сотрудник" FromRole="Воинский_учетСот" ToRole="Сотрудник" />
+  </EntityType>
+  <EntityType Name="График_работы">
+    <Key>
+      <PropertyRef Name="Код_штатной_единиц" />
+    </Key>
+    <Property Name="Код_штатной_единиц" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Код_подразделения" Type="Int32" Nullable="false" />
+    <Property Name="Код_должности" Type="Int32" Nullable="false" />
+    <Property Name="Количество_ставок" Type="Int32" Nullable="false" />
+    <Property Name="Оклад" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Должность" Relationship="Model.FK_График_работы_Должность" FromRole="График_работы" ToRole="Должность" />
+    <NavigationProperty Name="Подразделение" Relationship="Model.FK_График_работы_Подразделение" FromRole="График_работы" ToRole="Подразделение" />
+  </EntityType>
+  <EntityType Name="Должность">
+    <Key>
+      <PropertyRef Name="Код_должности" />
+    </Key>
+    <Property Name="Код_должности" Type="Int32" Nullable="false" />
+    <Property Name="Название" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="График_работы" Relationship="Model.FK_График_работы_Должность" FromRole="Должность" ToRole="График_работы" />
+  </EntityType>
+  <EntityType Name="дополнительные_поля">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="характер_работы" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="режим_труда" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="продолжительность_недели" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="график_работы" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="испытательный_срок" Type="Int32" />
+    <Property Name="вредные_производственные_факторы" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="основание_приема_на_работу" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="разряд" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="квалификационная_категория" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="работник_подчиняется" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="место_нахождение_служебного_помещения" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="обязанности" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="длительность_отпуска" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="алфавит" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="код_сотрудника" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Сотрудник" Relationship="Model.FK_дополнительные_поля_Сотрудник" FromRole="дополнительные_поля" ToRole="Сотрудник" />
+  </EntityType>
+  <EntityType Name="Информация_об_организации">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Краткое_название" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Полное_наименование" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="Город" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Адрес" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ИНН" Type="String" MaxLength="13" FixedLength="false" Unicode="true" />
+    <Property Name="КПП" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="ОКПО" Type="String" MaxLength="7" FixedLength="false" Unicode="true" />
+    <Property Name="Расс__счет" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Корр__счет" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ОГРН" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Рег__номер_в_ПФР" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Код_ТО_ПФР" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="В_банке" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="БИК_банка" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="ФИО_Руководителя" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Должность_руководителя" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="ФИО_Главного_бухгалтера" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="ФИО_работника_кадровой_службы" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Должность_работника_кадровой_службы" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Телефон_факс" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Примечание" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ОбразовниеСот">
+    <Key>
+      <PropertyRef Name="ID_диплома" />
+    </Key>
+    <Property Name="ID_диплома" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ВО_Наименование_документа_об_образовании" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ВОСерия" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="ВОНомер" Type="String" MaxLength="7" FixedLength="false" Unicode="true" />
+    <Property Name="ВОТип_образования" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ВОНаименование_учебного_заведения" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ВОСпециальность" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ВОКвалификация" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ВОДата_окончания" Type="DateTime" Precision="0" />
+    <Property Name="Наименование_документа_об_образовании" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Серия" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="Номер" Type="String" MaxLength="7" FixedLength="false" Unicode="true" />
+    <Property Name="Тип_образования" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Наименование_учебного_заведения" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Специальность" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Квалификация" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Дата_окончания" Type="DateTime" Precision="0" />
+    <Property Name="ПОНаименование" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ПОДокумент_" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="C_ПОДата_выдачи" Type="DateTime" Precision="0" />
+    <Property Name="C_ПОВыдавший_орган" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="C_ПОУченая_степень" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ПОНаправление_по_диплому" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Код_сотрудника" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Сотрудник" Relationship="Model.FK_ОбразовниеСот_Сотрудник" FromRole="ОбразовниеСот" ToRole="Сотрудник" />
+  </EntityType>
+  <EntityType Name="Основания_увольнения">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Статья_ФЗ" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Пункт" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="Основания_увольнения1" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Приказ_об_увольнении" Relationship="Model.FK_Приказ_об_увольнении_Основания_увольнения" FromRole="Основания_увольнения" ToRole="Приказ_об_увольнении" />
+  </EntityType>
+  <EntityType Name="Отпуска">
+    <Key>
+      <PropertyRef Name="C__приказа" />
+    </Key>
+    <Property Name="C__приказа" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Основание" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Дата_подписи" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Код_сотрудника" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Сотрудник" Relationship="Model.FK_Отпуска_Сотрудник" FromRole="Отпуска" ToRole="Сотрудник" />
+  </EntityType>
+  <EntityType Name="Паспортные_данныеСот">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Код_сотрудника" Type="Int32" />
+    <Property Name="Код_подразделения" Type="String" MaxLength="7" FixedLength="false" Unicode="true" />
+    <Property Name="Серия_паспорта" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="Номер_паспорта" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="Кем_выдан" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Дата_выдачи" Type="DateTime" Precision="0" />
+    <Property Name="Срок_действия" Type="DateTime" Precision="0" />
+    <Property Name="МРДата_регистрации" Type="DateTime" Precision="0" />
+    <Property Name="МРСрок_действия_до" Type="DateTime" Precision="0" />
+    <Property Name="МРСтрана" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="МРРегион" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="МРПочтовый_индекс" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="МРГород" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="МР_Улица" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="МРДом" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="МРКорпус" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="МРКвартира" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="ФПДата_регистрации" Type="DateTime" Precision="0" />
+    <Property Name="ФПСрок_действия_до" Type="DateTime" Precision="0" />
+    <Property Name="ФПСтрана" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ФПРегион" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ФППочтовый_индекс" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="ФПГород" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ФП_Улица" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ФПДом" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ФПКорпус" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ФПКвартира" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="ВУСерия" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="ВУНомер" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="ВУСрок_действия_до" Type="DateTime" Precision="0" />
+    <Property Name="ЗПСерия" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Name="ЗПНомер" Type="String" MaxLength="7" FixedLength="false" Unicode="true" />
+    <Property Name="ЗПДата_выдачи" Type="DateTime" Precision="0" />
+    <Property Name="ЗПВыдавший_орган" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ЗПСрок_действия_до" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Сотрудник" Relationship="Model.FK_Паспортные_данныеСот_Сотрудник" FromRole="Паспортные_данныеСот" ToRole="Сотрудник" />
+  </EntityType>
+  <EntityType Name="Подразделение">
+    <Key>
+      <PropertyRef Name="Код_подразделения" />
+    </Key>
+    <Property Name="Код_подразделения" Type="Int32" Nullable="false" />
+    <Property Name="Название" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="График_работы" Relationship="Model.FK_График_работы_Подразделение" FromRole="Подразделение" ToRole="График_работы" />
+  </EntityType>
+  <EntityType Name="Приказ_о_переводе">
+    <Key>
+      <PropertyRef Name="C__приакза" />
+    </Key>
+    <Property Name="C__приакза" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Дата_утверждения" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Код_сотрудника" Type="Int32" Nullable="false" />
+    <Property Name="Код_штатной_еденицы" Type="Int32" Nullable="false" />
+    <Property Name="Основание" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Сотрудник" Relationship="Model.FK_Приказ_о_переводе_Сотрудник" FromRole="Приказ_о_переводе" ToRole="Сотрудник" />
+  </EntityType>
+  <EntityType Name="Приказ_о_приеме">
+    <Key>
+      <PropertyRef Name="C__приказа" />
+    </Key>
+    <Property Name="C__приказа" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Дата_подписи" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Код_сотрудника" Type="Int32" Nullable="false" />
+    <Property Name="Код_штатной_единицы" Type="Int32" Nullable="false" />
+    <Property Name="Количество_ставок" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Сотрудник" Relationship="Model.FK_Приказ_о_приеме_Сотрудник" FromRole="Приказ_о_приеме" ToRole="Сотрудник" />
+  </EntityType>
+  <EntityType Name="Приказ_об_увольнении">
+    <Key>
+      <PropertyRef Name="C__приказа" />
+    </Key>
+    <Property Name="C__приказа" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Дата_увольнения" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Основание_увольнения" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Статья" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Пункт" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="Номер_приказа_на_увольнение" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Дата_приказа_на_увольнение" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Код_сотрудника" Type="Int32" Nullable="false" />
+    <Property Name="IDОснование" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Основания_увольнения" Relationship="Model.FK_Приказ_об_увольнении_Основания_увольнения" FromRole="Приказ_об_увольнении" ToRole="Основания_увольнения" />
+  </EntityType>
+  <EntityType Name="Сотрудник">
+    <Key>
+      <PropertyRef Name="Табельный_номер" />
+    </Key>
+    <Property Name="Табельный_номер" Type="Int32" Nullable="false" />
+    <Property Name="Дата_приема_на_работу" Type="DateTime" Precision="0" />
+    <Property Name="Фамилия" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Имя" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Отчество" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Дата_рождения" Type="DateTime" Precision="0" />
+    <Property Name="Пол" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Семейное_положение" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="Телефон_домашний" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="Телефон_рабочий" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="Телефон_мобильный" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="Должность" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Отдел" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Кабинет" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="ИНН" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="СНИЛС" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="C__мед_полиса" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Name="E_mail" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="Национальность" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Гражданство" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Место_рождения" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="название_фото" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Воинский_учетСот" Relationship="Model.FK_Воинский_учетСот_Сотрудник" FromRole="Сотрудник" ToRole="Воинский_учетСот" />
+    <NavigationProperty Name="дополнительные_поля" Relationship="Model.FK_дополнительные_поля_Сотрудник" FromRole="Сотрудник" ToRole="дополнительные_поля" />
+    <NavigationProperty Name="ОбразовниеСот" Relationship="Model.FK_ОбразовниеСот_Сотрудник" FromRole="Сотрудник" ToRole="ОбразовниеСот" />
+    <NavigationProperty Name="Отпуска" Relationship="Model.FK_Отпуска_Сотрудник" FromRole="Сотрудник" ToRole="Отпуска" />
+    <NavigationProperty Name="Паспортные_данныеСот" Relationship="Model.FK_Паспортные_данныеСот_Сотрудник" FromRole="Сотрудник" ToRole="Паспортные_данныеСот" />
+    <NavigationProperty Name="Приказ_о_переводе" Relationship="Model.FK_Приказ_о_переводе_Сотрудник" FromRole="Сотрудник" ToRole="Приказ_о_переводе" />
+    <NavigationProperty Name="Приказ_о_приеме" Relationship="Model.FK_Приказ_о_приеме_Сотрудник" FromRole="Сотрудник" ToRole="Приказ_о_приеме" />
+    <NavigationProperty Name="Трудовая_деятельность" Relationship="Model.FK_Трудовая_деятельность_Сотрудник" FromRole="Сотрудник" ToRole="Трудовая_деятельность" />
+    <NavigationProperty Name="Трудовая_книжка" Relationship="Model.FK_Трудовая_книжка_Сотрудник" FromRole="Сотрудник" ToRole="Трудовая_книжка" />
+  </EntityType>
+  <EntityType Name="Трудовая_деятельность">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Код_сотрудника" Type="Int32" Nullable="false" />
+    <Property Name="Дата_приема_на_работу" Type="DateTime" Precision="0" />
+    <Property Name="Должность" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="C__договора" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Дата_договора" Type="DateTime" Precision="0" />
+    <Property Name="C__приказа" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Дата_приказа" Type="DateTime" Precision="0" />
+    <Property Name="Срок_договора" Type="DateTime" Precision="0" />
+    <Property Name="Тип_места_работы" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Стаж_работы_общий" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Стаж_работы_страховой" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Стаж_работы_на_предприятии" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Состоит_в_профсюзе" Type="Boolean" />
+    <Property Name="Оклад" Type="Double" />
+    <Property Name="Надбавка" Type="Double" />
+    <Property Name="Всего_рублей" Type="Double" />
+    <Property Name="Оклад_с_надбавкой" Type="Double" />
+    <Property Name="КТУ" Type="Double" />
+    <Property Name="Ставка" Type="Double" />
+    <Property Name="Чето_рубли_какието_ваще_хз" Type="Double" />
+    <NavigationProperty Name="Сотрудник" Relationship="Model.FK_Трудовая_деятельность_Сотрудник" FromRole="Трудовая_деятельность" ToRole="Сотрудник" />
+  </EntityType>
+  <EntityType Name="Трудовая_книжка">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Код_сотрудника" Type="Int32" Nullable="false" />
+    <Property Name="C_пп" Type="Int32" Nullable="false" />
+    <Property Name="Дата" Type="DateTime" Precision="0" />
+    <Property Name="Сведения_о_приеме_переводах_и_увольнении" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ОснованиеНаименование" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ОснованиеДата" Type="DateTime" Precision="0" />
+    <Property Name="ОснованиеНомер" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ОснованиеСерия" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Вид_кадрового_мероприятия" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Статья_ФЗ_причины_при_увольнении" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Пункт_ФЗ_причины_при_увольнении" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="выполняемая_функция_при_наличии_" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="С_даты" Type="DateTime" Precision="0" />
+    <Property Name="по_дату" Type="DateTime" Precision="0" />
+    <Property Name="признак_отмены_записи" Type="Boolean" />
+    <Property Name="дата_отмены_записи" Type="DateTime" Precision="0" />
+    <Property Name="совместитель" Type="Boolean" />
+    <Property Name="должность" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="отдел" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="работа_в_районах_крайнего_севера" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="UUID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Сотрудник" Relationship="Model.FK_Трудовая_книжка_Сотрудник" FromRole="Трудовая_книжка" ToRole="Сотрудник" />
+  </EntityType>
+  <Association Name="FK_Воинский_учетСот_Сотрудник">
+    <End Type="Model.Сотрудник" Role="Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model.Воинский_учетСот" Role="Воинский_учетСот" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный_номер" />
+      </Principal>
+      <Dependent Role="Воинский_учетСот">
+        <PropertyRef Name="Код_сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_График_работы_Должность">
+    <End Type="Model.Должность" Role="Должность" Multiplicity="1" />
+    <End Type="Model.График_работы" Role="График_работы" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Должность">
+        <PropertyRef Name="Код_должности" />
+      </Principal>
+      <Dependent Role="График_работы">
+        <PropertyRef Name="Код_должности" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_График_работы_Подразделение">
+    <End Type="Model.Подразделение" Role="Подразделение" Multiplicity="1" />
+    <End Type="Model.График_работы" Role="График_работы" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Подразделение">
+        <PropertyRef Name="Код_подразделения" />
+      </Principal>
+      <Dependent Role="График_работы">
+        <PropertyRef Name="Код_подразделения" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_дополнительные_поля_Сотрудник">
+    <End Type="Model.Сотрудник" Role="Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model.дополнительные_поля" Role="дополнительные_поля" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный_номер" />
+      </Principal>
+      <Dependent Role="дополнительные_поля">
+        <PropertyRef Name="код_сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ОбразовниеСот_Сотрудник">
+    <End Type="Model.Сотрудник" Role="Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model.ОбразовниеСот" Role="ОбразовниеСот" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный_номер" />
+      </Principal>
+      <Dependent Role="ОбразовниеСот">
+        <PropertyRef Name="Код_сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Приказ_об_увольнении_Основания_увольнения">
+    <End Type="Model.Основания_увольнения" Role="Основания_увольнения" Multiplicity="1" />
+    <End Type="Model.Приказ_об_увольнении" Role="Приказ_об_увольнении" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Основания_увольнения">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Приказ_об_увольнении">
+        <PropertyRef Name="IDОснование" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Отпуска_Сотрудник">
+    <End Type="Model.Сотрудник" Role="Сотрудник" Multiplicity="1" />
+    <End Type="Model.Отпуска" Role="Отпуска" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный_номер" />
+      </Principal>
+      <Dependent Role="Отпуска">
+        <PropertyRef Name="Код_сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Паспортные_данныеСот_Сотрудник">
+    <End Type="Model.Сотрудник" Role="Сотрудник" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model.Паспортные_данныеСот" Role="Паспортные_данныеСот" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный_номер" />
+      </Principal>
+      <Dependent Role="Паспортные_данныеСот">
+        <PropertyRef Name="Код_сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Приказ_о_переводе_Сотрудник">
+    <End Type="Model.Сотрудник" Role="Сотрудник" Multiplicity="1" />
+    <End Type="Model.Приказ_о_переводе" Role="Приказ_о_переводе" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный_номер" />
+      </Principal>
+      <Dependent Role="Приказ_о_переводе">
+        <PropertyRef Name="Код_сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Приказ_о_приеме_Сотрудник">
+    <End Type="Model.Сотрудник" Role="Сотрудник" Multiplicity="1" />
+    <End Type="Model.Приказ_о_приеме" Role="Приказ_о_приеме" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный_номер" />
+      </Principal>
+      <Dependent Role="Приказ_о_приеме">
+        <PropertyRef Name="Код_сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Трудовая_деятельность_Сотрудник">
+    <End Type="Model.Сотрудник" Role="Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model.Трудовая_деятельность" Role="Трудовая_деятельность" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный_номер" />
+      </Principal>
+      <Dependent Role="Трудовая_деятельность">
+        <PropertyRef Name="Код_сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Трудовая_книжка_Сотрудник">
+    <End Type="Model.Сотрудник" Role="Сотрудник" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model.Трудовая_книжка" Role="Трудовая_книжка" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сотрудник">
+        <PropertyRef Name="Табельный_номер" />
+      </Principal>
+      <Dependent Role="Трудовая_книжка">
+        <PropertyRef Name="Код_сотрудника" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,190 @@
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\Resources\icons8-google-16.png
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\Resources\Login.jpg
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\HR_Department.exe.config
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\HR_Department.exe
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\HR_Department.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\ControlzEx.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\EntityFramework.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\MaterialDesignColors.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\Microsoft.Xaml.Behaviors.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\ControlzEx.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\ControlzEx.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\EntityFramework.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\MaterialDesignColors.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\Microsoft.Xaml.Behaviors.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\Microsoft.Xaml.Behaviors.xml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\ru\EntityFramework.resources.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department.csprojAssemblyReference.cache
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\GeneralWindow.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MainWindow.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MVVM\View\Frame2.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MVVM\View\Frame4.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MVVM\View\Frame5.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Page1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Page2.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MVVM\View\Pages1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageFrame2_1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageFrame3_1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageFrame4_1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageFrame5_1.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Warning.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\App.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department_Content.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department_MarkupCompile.cache
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department_MarkupCompile.lref
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\App.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\GeneralWindow.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MainWindow.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MVVM\View\Frame2.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MVVM\View\Frame4.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MVVM\View\Frame5.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Page1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Page2.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\MVVM\View\Pages1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageFrame2_1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageFrame3_1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageFrame4_1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageFrame5_1.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Thame\ButtonThameTemp.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Thame\MenuButtonThame.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Thame\StandartButtonThame.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Thame\TextBoxThame.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Warning.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department.g.resources
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department.Properties.Resources.resources
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department.csproj.GenerateResource.cache
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department.csproj.CoreCompileInputs.cache
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department.csproj.CopyComplete
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department.exe
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\HR_Department.pdb
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\seniorityCalculator.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\seniorityCalculator.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\department.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\department.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\dismiss_employee.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageAddEmployee.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageAddEmployee2.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageAddEmployee3.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageAddEmployee4.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Update.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\dismiss_employee.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageAddEmployee.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageAddEmployee2.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageAddEmployee3.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\PageAddEmployee4.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\Update.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\Docx\Т-1.docx
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\Docx\Т-2.docx
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\bin\Release\Docx\Т-8.docx
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\additional_fields_window.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\employmet_history_page.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\search_history_e.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\T2.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\update_employment_history.g.cs
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\additional_fields_window.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\employmet_history_page.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\search_history_e.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\T2.baml
+C:\Users\yardo\Desktop\diplom\HR_Department\HR_Department\obj\Release\update_employment_history.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\Docx\Т-1.docx
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\Docx\Т-2.docx
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\Docx\Т-8.docx
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\Resources\icons8-google-16.png
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\Resources\Login.jpg
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\HR_Department.exe.config
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\HR_Department.exe
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\HR_Department.pdb
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\ControlzEx.dll
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\EntityFramework.dll
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\MaterialDesignColors.dll
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\Microsoft.Xaml.Behaviors.dll
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\ControlzEx.pdb
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\ControlzEx.xml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\EntityFramework.xml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\MaterialDesignColors.pdb
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\Microsoft.Xaml.Behaviors.pdb
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\Microsoft.Xaml.Behaviors.xml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\ru\EntityFramework.resources.dll
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\bin\Release\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department.csprojAssemblyReference.cache
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\additional_fields_window.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\department.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\dismiss_employee.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\employmet_history_page.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\GeneralWindow.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MainWindow.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MVVM\View\Frame2.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MVVM\View\Frame4.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MVVM\View\Frame5.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Page1.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Page2.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MVVM\View\Pages1.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageAddEmployee.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageAddEmployee2.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageAddEmployee3.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageAddEmployee4.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageFrame2_1.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageFrame3_1.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageFrame4_1.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageFrame5_1.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\search_history_e.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\seniorityCalculator.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\T2.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Update.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\update_employment_history.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Warning.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\App.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department_Content.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department_MarkupCompile.cache
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department_MarkupCompile.lref
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\App.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\additional_fields_window.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\department.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\dismiss_employee.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\employmet_history_page.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\GeneralWindow.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MainWindow.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MVVM\View\Frame2.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MVVM\View\Frame4.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MVVM\View\Frame5.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Page1.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Page2.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\MVVM\View\Pages1.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageAddEmployee.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageAddEmployee2.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageAddEmployee3.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageAddEmployee4.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageFrame2_1.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageFrame3_1.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageFrame4_1.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\PageFrame5_1.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\search_history_e.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\seniorityCalculator.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\T2.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Thame\ButtonThameTemp.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Thame\MenuButtonThame.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Thame\StandartButtonThame.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Thame\TextBoxThame.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Update.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\update_employment_history.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\Warning.baml
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department.g.resources
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department.Properties.Resources.resources
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department.csproj.GenerateResource.cache
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department.csproj.CoreCompileInputs.cache
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department.csproj.CopyComplete
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department.exe
+C:\Users\yardo\Downloads\диплом — копия\HR_Department\HR_Department\obj\Release\HR_Department.pdb

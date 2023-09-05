@@ -1,0 +1,68 @@
+﻿<Page x:Class="HR_Department.update_employment_history"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HR_Department"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1100"
+      Title="update_employment_history" Background="AliceBlue">
+
+    <ScrollViewer VerticalScrollBarVisibility="auto">
+        <Grid Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Трудовая книжка" FontSize="28" Margin="30" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBlock Grid.Column="0" Text="Дата" FontSize="18" Margin="30,79,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <DatePicker x:Name="date"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,74,100,0"/>
+            <TextBlock Grid.Column="0" Text="Сведения" FontSize="18" Margin="30,119,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox  x:Name="intelligence"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,114,100,0" materialDesign:HintAssist.Hint="прием переводы и увольнения"/>
+            <TextBlock Grid.Column="0" Text="Наименование" FontSize="18" Margin="30,159,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox  x:Name="name_base"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,154,100,0" materialDesign:HintAssist.Hint="основания"/>
+            <TextBlock Grid.Column="0" Text="Дата" FontSize="18" Margin="30,199,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <DatePicker x:Name="date_base"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,194,100,0" materialDesign:HintAssist.Hint="основания"/>
+            <TextBlock Grid.Column="0" Text="Номер" FontSize="18" Margin="30,239,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox  x:Name="number_base"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,234,100,0" materialDesign:HintAssist.Hint="основания"/>
+            <TextBlock Grid.Column="0" Text="Серия" FontSize="18" Margin="30,279,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBox  x:Name="series_base"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,274,100,0" materialDesign:HintAssist.Hint="основания"/>
+            <TextBlock Grid.Column="0" Text="Кадровое мероприятие" FontSize="18" Margin="30,319,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBox  x:Name="personnel_event"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="240,314,100,0" materialDesign:HintAssist.Hint="вид"/>
+            <TextBlock Grid.Column="0" Text="Статья ФЗ" FontSize="18" Margin="30,359,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBox  x:Name="article"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,354,100,0" materialDesign:HintAssist.Hint="причины при увольнении"/>
+            <TextBlock Grid.Column="0" Text="Пункт ФЗ" FontSize="18" Margin="30,399,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBox  x:Name="paragraph"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,394,100,0" MaxLength="3" materialDesign:HintAssist.Hint="причины при увольнении"/>
+            <TextBlock Grid.Column="0" Text="Выполняемая функция" FontSize="18" Margin="30,439,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBox  x:Name="fuction"  Grid.Column="0" Height="32" FontSize="18" VerticalAlignment="Top" Margin="240,434,100,0" materialDesign:HintAssist.Hint="при наличии"/>
+
+            <TextBlock Grid.Column="1" Text="Признак отмены записи" FontSize="18" Margin="30,80" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <ComboBox  x:Name="sign_of_cancellation"  Grid.Column="1" Height="32" FontSize="18" VerticalAlignment="Top" Margin="245,75,100,0">
+                <TextBlock Text="Да"/>
+                <TextBlock Text="Нет"/>
+            </ComboBox>
+            <TextBlock Grid.Column="1" Text="Дата отмены записи" FontSize="18" Margin="30,120" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <DatePicker x:Name="cancellation_date"  Grid.Column="1" Height="32" FontSize="18" VerticalAlignment="Top" Margin="210,115,100,0"/>
+            <TextBlock Grid.Column="1" Text="Совместитель" FontSize="18" Margin="30,160" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <ComboBox x:Name="parttime_worker"  Grid.Column="1" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,155,100,0">
+                <TextBlock Text="Да"/>
+                <TextBlock Text="Нет"/>
+            </ComboBox>
+            <TextBlock Grid.Column="1" Text="Должность" FontSize="18" Margin="30,200" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox  x:Name="position"  Grid.Column="1" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,195,100,0"/>
+            <TextBlock Grid.Column="1" Text="Отдел" FontSize="18" Margin="30,240" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox  x:Name="department"  Grid.Column="1" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,235,100,0"/>
+            <TextBlock Grid.Column="1" Text="РКС" FontSize="18" Margin="30,280" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox  x:Name="RKS"  Grid.Column="1" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,275,100,0" materialDesign:HintAssist.Hint="работа в районах крайнего севера"/>
+            <TextBlock Grid.Column="1" Text="UUID" FontSize="18" Margin="30,320,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBox  x:Name="UUID"  Grid.Column="1" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,315,100,0"/>
+            <TextBlock Grid.Column="1" Text="С даты" FontSize="18" Margin="30,360,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <DatePicker x:Name="from_date"  Grid.Column="1" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,355,100,0"/>
+            <TextBlock Grid.Column="1" Text="По дату" FontSize="18" Margin="30,400,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <DatePicker x:Name="by_date" Grid.Column="1" Height="32" FontSize="18" VerticalAlignment="Top" Margin="180,395,100,0"/>
+            <Button Background="#00678E" x:Name="save" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30" Content="Сохранить" FontSize="18" Click="Save_click"/>
+            <Button Background="#00678E"  x:Name="cancel" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,30,170,30" Content="Отмена" FontSize="18" Click="cancel_click"/>
+        </Grid>
+    </ScrollViewer>
+</Page>

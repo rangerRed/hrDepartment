@@ -1,0 +1,117 @@
+﻿<Page x:Class="HR_Department.PageAddEmployee2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HR_Department"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1100"
+      Title="PageAddEmployee2" Background="White">
+    <ScrollViewer VerticalScrollBarVisibility="auto">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="0" Text="Серия и номер" FontSize="18" Margin="30,90" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBlock Grid.Column="0" Text="Выдавший орган" FontSize="18" Margin="30,130,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBlock Grid.Column="0" Text="Дата выдачи" FontSize="18" Margin="30,170,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBlock Grid.Column="0" Text="Общегражданский паспорт" FontSize="28" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30"/>
+            <Grid Margin="178,85,100,0" VerticalAlignment="Top" Height="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBox Text="" MaxLength="4" x:Name="OPSeria" materialDesign:HintAssist.Hint="Серия" Grid.Column="0" VerticalAlignment="Top" Margin="2" Height="32" FontSize="18"/>
+                <TextBox Text="" MaxLength="6" x:Name="OPNomer" materialDesign:HintAssist.Hint="Номер" Grid.Column="1" VerticalAlignment="Top" Margin="2" Height="32" FontSize="18"/>
+            </Grid>
+            <TextBox Text="" x:Name="OPVidavshiyOrg" Grid.Column="0" VerticalAlignment="Top" Margin="178,125,100,0" Height="32" FontSize="18"/>
+            <DatePicker x:Name="OPDataVidachi" Grid.Column="0" VerticalAlignment="Top" Margin="178,165,100,0" Height="32" FontSize="18"/>
+            <TextBlock Grid.Column="0" Text="Код подразделения" FontSize="18" Margin="30,210,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox Text="" MaxLength="7" x:Name="OPKodPodrazd" Grid.Column="0" VerticalAlignment="Top" Margin="205,205,100,0" Height="32" FontSize="18"/>
+            <TextBlock Grid.Column="0" Text="Срок действия" FontSize="18" Margin="30,250,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <DatePicker x:Name="OPSrokDeyst" Grid.Column="0" VerticalAlignment="Top" Margin="178,245,100,0" Height="32" FontSize="18"/>
+
+            <DatePicker x:Name="MRDataregistr" materialDesign:HintAssist.Hint="Дата регистрации" Grid.Column="0" VerticalAlignment="Top" Margin="178,330,100,0" Height="32" FontSize="18"/>
+            <DatePicker x:Name="MRSrokDeysDo" materialDesign:HintAssist.Hint="Срок действия до" Grid.Column="0" VerticalAlignment="Top" Margin="178,370,100,0" Height="32" FontSize="18"/>
+            <TextBox Text="" x:Name="MRStrana" Grid.Column="0" VerticalAlignment="Top" Margin="178,410,100,0" Height="32" FontSize="18"/>
+            <TextBox Text="" x:Name="MRRegion" Grid.Column="0" VerticalAlignment="Top" Margin="178,450,100,0" Height="32" FontSize="18"/>
+            <TextBox Text="" MaxLength="6" x:Name="MRPochtoviyIndex" Grid.Column="0" VerticalAlignment="Top" Margin="190,490,100,0" Height="32" FontSize="18"/>
+            <TextBox Text="" x:Name="MRGorod" Grid.Column="0" VerticalAlignment="Top" Margin="178,530,100,0" Height="32" FontSize="18"/>
+            <TextBlock Grid.Column="0" Text="Улица" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,575,0,0" Height="32" FontSize="18"/>
+            <TextBox Text="" x:Name="MRUlica" Grid.Column="0" VerticalAlignment="Top" Margin="178,570,100,0" Height="32" FontSize="18"/>
+
+            <Grid Margin="178,610,100,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBox Text="" x:Name="MRDom" Grid.Column="0" materialDesign:HintAssist.Hint="Дом" Margin="2" VerticalAlignment="Top" Height="32" FontSize="18"/>
+                <TextBox Text="" x:Name="MRKorpus" Grid.Column="1" materialDesign:HintAssist.Hint="Корпус" Margin="2" VerticalAlignment="Top" Height="32" FontSize="18"/>
+                <TextBox Text="" x:Name="MRKvartira" Grid.Column="2" materialDesign:HintAssist.Hint="Квартира" Margin="2" VerticalAlignment="Top" Height="32" FontSize="18"/>
+            </Grid>
+            <TextBlock Text="Страна" VerticalAlignment="Top" Margin="30,415,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Text="Регион" VerticalAlignment="Top" Margin="30,455,0,0" FontSize="18" HorizontalAlignment="Left" Width="164"/>
+            <TextBlock Text="Почтовый индекс" VerticalAlignment="Top" Margin="30,495,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Text="Город" VerticalAlignment="Top" Margin="30,535,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Text="Регистрация" VerticalAlignment="Top" Margin="30,375,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Text="Регистрация" VerticalAlignment="Top" Margin="30,335,0,0" FontSize="18" HorizontalAlignment="Left"/>
+
+            <DatePicker x:Name="MFPDataRegistr" materialDesign:HintAssist.Hint="Дата регистрации" Grid.Column="1" VerticalAlignment="Top" Margin="178,85,100,0" Height="32" FontSize="18"/>
+            <DatePicker x:Name="MFPSrokdeystv" materialDesign:HintAssist.Hint="Срок действия до" Grid.Column="1" VerticalAlignment="Top" Margin="178,125,100,0" Height="32" FontSize="18"/>
+            <TextBox Text="" x:Name="MFPstrana" Grid.Column="1" VerticalAlignment="Top" Margin="178,165,100,0" Height="32" FontSize="18"/>
+            <TextBox Text="" x:Name="MFPregion" Grid.Column="1" VerticalAlignment="Top" Margin="178,205,100,0" Height="32" FontSize="18"/>
+            <TextBox Text="" MaxLength="6" x:Name="MFPpochtoviyindex" Grid.Column="1" VerticalAlignment="Top" Margin="190,245,100,0" Height="32" FontSize="18"/>
+            <TextBox Text="" x:Name="MFPgorod" Grid.Column="1" VerticalAlignment="Top" Margin="178,285,100,0" Height="32" FontSize="18"/>
+            <TextBlock Grid.Column="1" Text="Улица" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,330,0,0" Height="32" FontSize="18"/>
+            <TextBox Text="" x:Name="MFPulica" Grid.Column="1" VerticalAlignment="Top" Margin="178,325,100,0" Height="32" FontSize="18"/>
+
+            <Grid Grid.Column="1" Margin="178,365,100,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBox Text="" x:Name="MFPdom" Grid.Column="0" materialDesign:HintAssist.Hint="Дом" Margin="2" VerticalAlignment="Top" Height="32" FontSize="18"/>
+                <TextBox Text="" x:Name="MFPkorpus" Grid.Column="1" materialDesign:HintAssist.Hint="Корпус" Margin="2" VerticalAlignment="Top" Height="32" FontSize="18"/>
+                <TextBox Text="" x:Name="MFPkvartira" Grid.Column="2" materialDesign:HintAssist.Hint="Квартира" Margin="2" VerticalAlignment="Top" Height="32" FontSize="18"/>
+            </Grid>
+            <TextBlock Grid.Column="1" Text="Регистрация" VerticalAlignment="Top" Margin="30,90,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="1" Text="Регистрация" VerticalAlignment="Top" Margin="30,130,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="1" Text="Страна" VerticalAlignment="Top" Margin="30,170,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="1" Text="Регион" VerticalAlignment="Top" Margin="30,210,0,0" FontSize="18" HorizontalAlignment="Left" Width="164"/>
+            <TextBlock Grid.Column="1" Text="Почтовый индекс" VerticalAlignment="Top" Margin="30,250,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="1" Text="Город" VerticalAlignment="Top" Margin="30,290,0,0" FontSize="18" HorizontalAlignment="Left"/>
+
+            <Button Grid.Column="1" Background="#00678E" Content="Отмена" VerticalAlignment="Top" Margin="0,620,230,40" HorizontalAlignment="Right" Width="80" FontWeight="Normal" Click="Button_Click_2"/>
+            <Button Grid.Column="1" Background="#00678E" Content="Назад" VerticalAlignment="Top" Margin="0,620,130,40" HorizontalAlignment="Right" Width="80" FontWeight="Normal" Click="Button_Click_Cancel"/>
+            <Button Grid.Column="1" Background="#00678E" Content="Далее" VerticalAlignment="Top" Margin="0,620,30,40" HorizontalAlignment="Right" Width="80" FontWeight="Normal" Click="Button_Click"/>
+            <TextBlock Grid.Column="0" Text="Место регистрации" FontSize="22" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,290,0,0"/>
+
+            <TextBlock Grid.Column="1" Text="" FontSize="22" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,36,0,0"/>
+            <TextBlock Grid.Column="1" Text="Место фактического проживания" FontSize="22" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,38,0,0"/>
+            <CheckBox x:Name="check_MF" Checked="Check_MF_Checked" Unchecked="Check_MF_Unchecked" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,67" FontSize="14" Content="По месту регистрации"/>
+            <TextBlock Grid.Column="1" Text="Заграничный паспорт" FontSize="22" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,415,0,0"/>
+            <TextBlock Grid.Column="1" Text="Серия" VerticalAlignment="Top" Margin="30,460,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="1" Text="Дата выдачи" VerticalAlignment="Top" Margin="30,500,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <Grid Grid.Column="1" Margin="178,455,100,0" VerticalAlignment="Top" Height="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBox Text="" MaxLength="2" x:Name="ZPseriya" materialDesign:HintAssist.Hint="Серия" Grid.Column="0" VerticalAlignment="Top" Margin="2" Height="32" FontSize="18"/>
+                <TextBox Text="" MaxLength="7" x:Name="ZPnomer" materialDesign:HintAssist.Hint="Номер" Grid.Column="1" VerticalAlignment="Top" Margin="2" Height="32" FontSize="18"/>
+            </Grid>
+            <DatePicker x:Name="ZPdatavidachi" VerticalAlignment="Top" Height="32" FontSize="18" Margin="178,495,100,0" Grid.Column="1"/>
+            <TextBlock Grid.Column="1" Text="Выдавший орган" VerticalAlignment="Top" Margin="30,540,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="1" Text="Срок действия" VerticalAlignment="Top" Margin="30,580,0,0" FontSize="18" HorizontalAlignment="Left"/>
+            <TextBox Text="" x:Name="ZPvidavshiyorgan" Grid.Column="1" VerticalAlignment="Top" Margin="178,535,100,0" Height="32" FontSize="18"/>
+            <DatePicker x:Name="ZPsrokdeystviya" Height="32" FontSize="18" VerticalAlignment="Top" Margin="178,575,100,0" Grid.Column="1"/>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

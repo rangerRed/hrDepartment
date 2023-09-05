@@ -1,0 +1,30 @@
+﻿<Window x:Class="HR_Department.dismiss_employee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HR_Department"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None"
+        mc:Ignorable="d" AllowsTransparency="True"
+        Title="dismiss_employee" Height="350" Width="600" Background="Transparent">
+    <Border  Background="AliceBlue" CornerRadius="7" MouseDown="MoveWindow">
+        <Grid>
+            <Image Height="15" Width="15" MouseDown="Exit" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,11,11,0" Source="Resources/icons8-удалить-48.png"/>
+            <TextBlock Text="Дата увольнения" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30"/>
+            <DatePicker x:Name="date_dismissed" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50"/>
+            <TextBlock Text="Основание увольнения" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,90"/>
+            <TextBlock Text="Статья" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,90,0,0"/>
+            <TextBlock Text="Пункт" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="490,90,0,0"/>
+            <TextBlock Text="Номер приказа на увольнение" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,150,0,0"/>
+            <TextBlock Text="Дата приказа на увольнение" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="245,150,0,0"/>
+            <TextBox x:Name="grounds" Width="360" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,110"/>
+            <TextBox x:Name="article" Width="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,110,0,0"/>
+            <TextBox x:Name="paragraph" VerticalAlignment="Top" Margin="490,110,0,0" HorizontalAlignment="Left" Width="80"/>
+            <TextBox x:Name="order_number" VerticalAlignment="Top" Margin="30,170,0,0" HorizontalAlignment="Left" Width="170"/>
+            <DatePicker x:Name="date_order_dismissed" VerticalAlignment="Top" Margin="245,170,0,0" HorizontalAlignment="Left" Width="160"/>
+            <Button Background="#00678E"  Content="Уволить" VerticalAlignment="Bottom" Click="dismiss" Margin="20" HorizontalAlignment="Right"/>
+            <Button Background="#00678E"  Content="Печать" VerticalAlignment="Bottom" Click="print" Margin="0,0,120,20" HorizontalAlignment="Right"/>
+        </Grid>
+    </Border>
+</Window>

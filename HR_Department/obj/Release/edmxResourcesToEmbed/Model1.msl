@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ModelContainer" CdmEntityContainer="HR_DepartmentEntities">
+    <EntitySetMapping Name="Login">
+      <EntityTypeMapping TypeName="Model.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="login1" ColumnName="login" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Model.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Воинский_учетСот">
+      <EntityTypeMapping TypeName="Model.Воинский_учетСот">
+        <MappingFragment StoreEntitySet="Воинский учетСот">
+          <ScalarProperty Name="Общий_учет" ColumnName="Общий учет" />
+          <ScalarProperty Name="Отметка_о_снятии" ColumnName="Отметка о снятии" />
+          <ScalarProperty Name="Спец_учет" ColumnName="Спец учет" />
+          <ScalarProperty Name="Коммисариат" ColumnName="Коммисариат" />
+          <ScalarProperty Name="Категория_запаса" ColumnName="Категория запаса" />
+          <ScalarProperty Name="Воинское_звание" ColumnName="Воинское звание" />
+          <ScalarProperty Name="Военно_учетная_специальность" ColumnName="Военно учетная специальность" />
+          <ScalarProperty Name="Номер_ВУС" ColumnName="Номер ВУС" />
+          <ScalarProperty Name="Категория_годности" ColumnName="Категория годности" />
+          <ScalarProperty Name="Состав" ColumnName="Состав" />
+          <ScalarProperty Name="Код_сотрудника" ColumnName="Код сотрудника" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="График_работы">
+      <EntityTypeMapping TypeName="Model.График_работы">
+        <MappingFragment StoreEntitySet="График работы">
+          <ScalarProperty Name="Оклад" ColumnName="Оклад" />
+          <ScalarProperty Name="Количество_ставок" ColumnName="Количество ставок" />
+          <ScalarProperty Name="Код_должности" ColumnName="Код должности" />
+          <ScalarProperty Name="Код_подразделения" ColumnName="Код подразделения" />
+          <ScalarProperty Name="Код_штатной_единиц" ColumnName="Код штатной единиц" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Должность">
+      <EntityTypeMapping TypeName="Model.Должность">
+        <MappingFragment StoreEntitySet="Должность">
+          <ScalarProperty Name="Название" ColumnName="Название" />
+          <ScalarProperty Name="Код_должности" ColumnName="Код должности" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="дополнительные_поля">
+      <EntityTypeMapping TypeName="Model.дополнительные_поля">
+        <MappingFragment StoreEntitySet="дополнительные поля">
+          <ScalarProperty Name="код_сотрудника" ColumnName="код сотрудника" />
+          <ScalarProperty Name="алфавит" ColumnName="алфавит" />
+          <ScalarProperty Name="длительность_отпуска" ColumnName="длительность отпуска" />
+          <ScalarProperty Name="обязанности" ColumnName="обязанности" />
+          <ScalarProperty Name="место_нахождение_служебного_помещения" ColumnName="место нахождение служебного помещения" />
+          <ScalarProperty Name="работник_подчиняется" ColumnName="работник подчиняется" />
+          <ScalarProperty Name="квалификационная_категория" ColumnName="квалификационная категория" />
+          <ScalarProperty Name="разряд" ColumnName="разряд" />
+          <ScalarProperty Name="основание_приема_на_работу" ColumnName="основание приема на работу" />
+          <ScalarProperty Name="вредные_производственные_факторы" ColumnName="вредные производственные факторы" />
+          <ScalarProperty Name="испытательный_срок" ColumnName="испытательный срок" />
+          <ScalarProperty Name="график_работы" ColumnName="график работы" />
+          <ScalarProperty Name="продолжительность_недели" ColumnName="продолжительность недели" />
+          <ScalarProperty Name="режим_труда" ColumnName="режим труда" />
+          <ScalarProperty Name="характер_работы" ColumnName="характер работы" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Информация_об_организации">
+      <EntityTypeMapping TypeName="Model.Информация_об_организации">
+        <MappingFragment StoreEntitySet="Информация об организации">
+          <ScalarProperty Name="Примечание" ColumnName="Примечание" />
+          <ScalarProperty Name="Телефон_факс" ColumnName="Телефон/факс" />
+          <ScalarProperty Name="Должность_работника_кадровой_службы" ColumnName="Должность работника кадровой службы" />
+          <ScalarProperty Name="ФИО_работника_кадровой_службы" ColumnName="ФИО работника кадровой службы" />
+          <ScalarProperty Name="ФИО_Главного_бухгалтера" ColumnName="ФИО Главного бухгалтера" />
+          <ScalarProperty Name="Должность_руководителя" ColumnName="Должность руководителя" />
+          <ScalarProperty Name="ФИО_Руководителя" ColumnName="ФИО Руководителя" />
+          <ScalarProperty Name="БИК_банка" ColumnName="БИК банка" />
+          <ScalarProperty Name="В_банке" ColumnName="В банке" />
+          <ScalarProperty Name="Код_ТО_ПФР" ColumnName="Код ТО ПФР" />
+          <ScalarProperty Name="Рег__номер_в_ПФР" ColumnName="Рег. номер в ПФР" />
+          <ScalarProperty Name="ОГРН" ColumnName="ОГРН" />
+          <ScalarProperty Name="Корр__счет" ColumnName="Корр. счет" />
+          <ScalarProperty Name="Расс__счет" ColumnName="Расс. счет" />
+          <ScalarProperty Name="ОКПО" ColumnName="ОКПО" />
+          <ScalarProperty Name="КПП" ColumnName="КПП" />
+          <ScalarProperty Name="ИНН" ColumnName="ИНН" />
+          <ScalarProperty Name="Адрес" ColumnName="Адрес" />
+          <ScalarProperty Name="Город" ColumnName="Город" />
+          <ScalarProperty Name="Полное_наименование" ColumnName="Полное наименование" />
+          <ScalarProperty Name="Краткое_название" ColumnName="Краткое название" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ОбразовниеСот">
+      <EntityTypeMapping TypeName="Model.ОбразовниеСот">
+        <MappingFragment StoreEntitySet="ОбразовниеСот">
+          <ScalarProperty Name="Код_сотрудника" ColumnName="Код сотрудника" />
+          <ScalarProperty Name="ПОНаправление_по_диплому" ColumnName="ПОНаправление по диплому" />
+          <ScalarProperty Name="C_ПОУченая_степень" ColumnName="[ПОУченая степень" />
+          <ScalarProperty Name="C_ПОВыдавший_орган" ColumnName="[ПОВыдавший орган" />
+          <ScalarProperty Name="C_ПОДата_выдачи" ColumnName="[ПОДата выдачи" />
+          <ScalarProperty Name="ПОДокумент_" ColumnName="ПОДокумент№" />
+          <ScalarProperty Name="ПОНаименование" ColumnName="ПОНаименование" />
+          <ScalarProperty Name="Дата_окончания" ColumnName="Дата окончания" />
+          <ScalarProperty Name="Квалификация" ColumnName="Квалификация" />
+          <ScalarProperty Name="Специальность" ColumnName="Специальность" />
+          <ScalarProperty Name="Наименование_учебного_заведения" ColumnName="Наименование учебного заведения" />
+          <ScalarProperty Name="Тип_образования" ColumnName="Тип образования" />
+          <ScalarProperty Name="Номер" ColumnName="Номер" />
+          <ScalarProperty Name="Серия" ColumnName="Серия" />
+          <ScalarProperty Name="Наименование_документа_об_образовании" ColumnName="Наименование документа об образовании" />
+          <ScalarProperty Name="ВОДата_окончания" ColumnName="ВОДата окончания" />
+          <ScalarProperty Name="ВОКвалификация" ColumnName="ВОКвалификация" />
+          <ScalarProperty Name="ВОСпециальность" ColumnName="ВОСпециальность" />
+          <ScalarProperty Name="ВОНаименование_учебного_заведения" ColumnName="ВОНаименование учебного заведения" />
+          <ScalarProperty Name="ВОТип_образования" ColumnName="ВОТип образования" />
+          <ScalarProperty Name="ВОНомер" ColumnName="ВОНомер" />
+          <ScalarProperty Name="ВОСерия" ColumnName="ВОСерия" />
+          <ScalarProperty Name="ВО_Наименование_документа_об_образовании" ColumnName="ВО Наименование документа об образовании" />
+          <ScalarProperty Name="ID_диплома" ColumnName="ID диплома" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Основания_увольнения">
+      <EntityTypeMapping TypeName="Model.Основания_увольнения">
+        <MappingFragment StoreEntitySet="Основания увольнения">
+          <ScalarProperty Name="Основания_увольнения1" ColumnName="Основания увольнения" />
+          <ScalarProperty Name="Пункт" ColumnName="Пункт" />
+          <ScalarProperty Name="Статья_ФЗ" ColumnName="Статья ФЗ" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Отпуска">
+      <EntityTypeMapping TypeName="Model.Отпуска">
+        <MappingFragment StoreEntitySet="Отпуска">
+          <ScalarProperty Name="Код_сотрудника" ColumnName="Код сотрудника" />
+          <ScalarProperty Name="Дата_подписи" ColumnName="Дата подписи" />
+          <ScalarProperty Name="Основание" ColumnName="Основание" />
+          <ScalarProperty Name="C__приказа" ColumnName="№ приказа" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Паспортные_данныеСот">
+      <EntityTypeMapping TypeName="Model.Паспортные_данныеСот">
+        <MappingFragment StoreEntitySet="Паспортные данныеСот">
+          <ScalarProperty Name="ЗПСрок_действия_до" ColumnName="ЗПСрок действия до" />
+          <ScalarProperty Name="ЗПВыдавший_орган" ColumnName="ЗПВыдавший орган" />
+          <ScalarProperty Name="ЗПДата_выдачи" ColumnName="ЗПДата выдачи" />
+          <ScalarProperty Name="ЗПНомер" ColumnName="ЗПНомер" />
+          <ScalarProperty Name="ЗПСерия" ColumnName="ЗПСерия" />
+          <ScalarProperty Name="ВУСрок_действия_до" ColumnName="ВУСрок действия до" />
+          <ScalarProperty Name="ВУНомер" ColumnName="ВУНомер" />
+          <ScalarProperty Name="ВУСерия" ColumnName="ВУСерия" />
+          <ScalarProperty Name="ФПКвартира" ColumnName="ФПКвартира" />
+          <ScalarProperty Name="ФПКорпус" ColumnName="ФПКорпус" />
+          <ScalarProperty Name="ФПДом" ColumnName="ФПДом" />
+          <ScalarProperty Name="ФП_Улица" ColumnName="ФП Улица" />
+          <ScalarProperty Name="ФПГород" ColumnName="ФПГород" />
+          <ScalarProperty Name="ФППочтовый_индекс" ColumnName="ФППочтовый индекс" />
+          <ScalarProperty Name="ФПРегион" ColumnName="ФПРегион" />
+          <ScalarProperty Name="ФПСтрана" ColumnName="ФПСтрана" />
+          <ScalarProperty Name="ФПСрок_действия_до" ColumnName="ФПСрок действия до" />
+          <ScalarProperty Name="ФПДата_регистрации" ColumnName="ФПДата регистрации" />
+          <ScalarProperty Name="МРКвартира" ColumnName="МРКвартира" />
+          <ScalarProperty Name="МРКорпус" ColumnName="МРКорпус" />
+          <ScalarProperty Name="МРДом" ColumnName="МРДом" />
+          <ScalarProperty Name="МР_Улица" ColumnName="МР Улица" />
+          <ScalarProperty Name="МРГород" ColumnName="МРГород" />
+          <ScalarProperty Name="МРПочтовый_индекс" ColumnName="МРПочтовый индекс" />
+          <ScalarProperty Name="МРРегион" ColumnName="МРРегион" />
+          <ScalarProperty Name="МРСтрана" ColumnName="МРСтрана" />
+          <ScalarProperty Name="МРСрок_действия_до" ColumnName="МРСрок действия до" />
+          <ScalarProperty Name="МРДата_регистрации" ColumnName="МРДата регистрации" />
+          <ScalarProperty Name="Срок_действия" ColumnName="Срок действия" />
+          <ScalarProperty Name="Дата_выдачи" ColumnName="Дата выдачи" />
+          <ScalarProperty Name="Кем_выдан" ColumnName="Кем выдан" />
+          <ScalarProperty Name="Номер_паспорта" ColumnName="Номер паспорта" />
+          <ScalarProperty Name="Серия_паспорта" ColumnName="Серия паспорта" />
+          <ScalarProperty Name="Код_подразделения" ColumnName="Код подразделения" />
+          <ScalarProperty Name="Код_сотрудника" ColumnName="Код сотрудника" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Подразделение">
+      <EntityTypeMapping TypeName="Model.Подразделение">
+        <MappingFragment StoreEntitySet="Подразделение">
+          <ScalarProperty Name="Название" ColumnName="Название" />
+          <ScalarProperty Name="Код_подразделения" ColumnName="Код подразделения" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Приказ_о_переводе">
+      <EntityTypeMapping TypeName="Model.Приказ_о_переводе">
+        <MappingFragment StoreEntitySet="Приказ о переводе">
+          <ScalarProperty Name="Основание" ColumnName="Основание" />
+          <ScalarProperty Name="Код_штатной_еденицы" ColumnName="Код штатной еденицы" />
+          <ScalarProperty Name="Код_сотрудника" ColumnName="Код сотрудника" />
+          <ScalarProperty Name="Дата_утверждения" ColumnName="Дата утверждения" />
+          <ScalarProperty Name="C__приакза" ColumnName="№ приакза" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Приказ_о_приеме">
+      <EntityTypeMapping TypeName="Model.Приказ_о_приеме">
+        <MappingFragment StoreEntitySet="Приказ о приеме">
+          <ScalarProperty Name="Количество_ставок" ColumnName="Количество ставок" />
+          <ScalarProperty Name="Код_штатной_единицы" ColumnName="Код штатной единицы" />
+          <ScalarProperty Name="Код_сотрудника" ColumnName="Код сотрудника" />
+          <ScalarProperty Name="Дата_подписи" ColumnName="Дата подписи" />
+          <ScalarProperty Name="C__приказа" ColumnName="№ приказа" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Приказ_об_увольнении">
+      <EntityTypeMapping TypeName="Model.Приказ_об_увольнении">
+        <MappingFragment StoreEntitySet="Приказ об увольнении">
+          <ScalarProperty Name="IDОснование" ColumnName="IDОснование" />
+          <ScalarProperty Name="Код_сотрудника" ColumnName="Код сотрудника" />
+          <ScalarProperty Name="Дата_приказа_на_увольнение" ColumnName="Дата приказа на увольнение" />
+          <ScalarProperty Name="Номер_приказа_на_увольнение" ColumnName="Номер приказа на увольнение" />
+          <ScalarProperty Name="Пункт" ColumnName="Пункт" />
+          <ScalarProperty Name="Статья" ColumnName="Статья" />
+          <ScalarProperty Name="Основание_увольнения" ColumnName="Основание увольнения" />
+          <ScalarProperty Name="Дата_увольнения" ColumnName="Дата увольнения" />
+          <ScalarProperty Name="C__приказа" ColumnName="№ приказа" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Сотрудник">
+      <EntityTypeMapping TypeName="Model.Сотрудник">
+        <MappingFragment StoreEntitySet="Сотрудник">
+          <ScalarProperty Name="название_фото" ColumnName="название фото" />
+          <ScalarProperty Name="Место_рождения" ColumnName="Место рождения" />
+          <ScalarProperty Name="Гражданство" ColumnName="Гражданство" />
+          <ScalarProperty Name="Национальность" ColumnName="Национальность" />
+          <ScalarProperty Name="E_mail" ColumnName="E-mail" />
+          <ScalarProperty Name="C__мед_полиса" ColumnName="№ мед полиса" />
+          <ScalarProperty Name="СНИЛС" ColumnName="СНИЛС" />
+          <ScalarProperty Name="ИНН" ColumnName="ИНН" />
+          <ScalarProperty Name="Кабинет" ColumnName="Кабинет" />
+          <ScalarProperty Name="Отдел" ColumnName="Отдел" />
+          <ScalarProperty Name="Должность" ColumnName="Должность" />
+          <ScalarProperty Name="Телефон_мобильный" ColumnName="Телефон мобильный" />
+          <ScalarProperty Name="Телефон_рабочий" ColumnName="Телефон рабочий" />
+          <ScalarProperty Name="Телефон_домашний" ColumnName="Телефон домашний" />
+          <ScalarProperty Name="Семейное_положение" ColumnName="Семейное положение" />
+          <ScalarProperty Name="Пол" ColumnName="Пол" />
+          <ScalarProperty Name="Дата_рождения" ColumnName="Дата рождения" />
+          <ScalarProperty Name="Отчество" ColumnName="Отчество" />
+          <ScalarProperty Name="Имя" ColumnName="Имя" />
+          <ScalarProperty Name="Фамилия" ColumnName="Фамилия" />
+          <ScalarProperty Name="Дата_приема_на_работу" ColumnName="Дата приема на работу" />
+          <ScalarProperty Name="Табельный_номер" ColumnName="Табельный номер" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Трудовая_деятельность">
+      <EntityTypeMapping TypeName="Model.Трудовая_деятельность">
+        <MappingFragment StoreEntitySet="Трудовая деятельность">
+          <ScalarProperty Name="Чето_рубли_какието_ваще_хз" ColumnName="Чето рубли какието ваще хз" />
+          <ScalarProperty Name="Ставка" ColumnName="Ставка" />
+          <ScalarProperty Name="КТУ" ColumnName="КТУ" />
+          <ScalarProperty Name="Оклад_с_надбавкой" ColumnName="Оклад с надбавкой" />
+          <ScalarProperty Name="Всего_рублей" ColumnName="Всего рублей" />
+          <ScalarProperty Name="Надбавка" ColumnName="Надбавка" />
+          <ScalarProperty Name="Оклад" ColumnName="Оклад" />
+          <ScalarProperty Name="Состоит_в_профсюзе" ColumnName="Состоит в профсюзе" />
+          <ScalarProperty Name="Стаж_работы_на_предприятии" ColumnName="Стаж работы на предприятии" />
+          <ScalarProperty Name="Стаж_работы_страховой" ColumnName="Стаж работы страховой" />
+          <ScalarProperty Name="Стаж_работы_общий" ColumnName="Стаж работы общий" />
+          <ScalarProperty Name="Тип_места_работы" ColumnName="Тип места работы" />
+          <ScalarProperty Name="Срок_договора" ColumnName="Срок договора" />
+          <ScalarProperty Name="Дата_приказа" ColumnName="Дата приказа" />
+          <ScalarProperty Name="C__приказа" ColumnName="№ приказа" />
+          <ScalarProperty Name="Дата_договора" ColumnName="Дата договора" />
+          <ScalarProperty Name="C__договора" ColumnName="№ договора" />
+          <ScalarProperty Name="Должность" ColumnName="Должность" />
+          <ScalarProperty Name="Дата_приема_на_работу" ColumnName="Дата приема на работу" />
+          <ScalarProperty Name="Код_сотрудника" ColumnName="Код сотрудника" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Трудовая_книжка">
+      <EntityTypeMapping TypeName="Model.Трудовая_книжка">
+        <MappingFragment StoreEntitySet="Трудовая книжка">
+          <ScalarProperty Name="UUID" ColumnName="UUID" />
+          <ScalarProperty Name="работа_в_районах_крайнего_севера" ColumnName="работа в районах крайнего севера" />
+          <ScalarProperty Name="отдел" ColumnName="отдел" />
+          <ScalarProperty Name="должность" ColumnName="должность" />
+          <ScalarProperty Name="совместитель" ColumnName="совместитель" />
+          <ScalarProperty Name="дата_отмены_записи" ColumnName="дата отмены записи" />
+          <ScalarProperty Name="признак_отмены_записи" ColumnName="признак отмены записи" />
+          <ScalarProperty Name="по_дату" ColumnName="по дату" />
+          <ScalarProperty Name="С_даты" ColumnName="С даты" />
+          <ScalarProperty Name="выполняемая_функция_при_наличии_" ColumnName="выполняемая функция(при наличии)" />
+          <ScalarProperty Name="Пункт_ФЗ_причины_при_увольнении" ColumnName="Пункт ФЗ причины при увольнении" />
+          <ScalarProperty Name="Статья_ФЗ_причины_при_увольнении" ColumnName="Статья ФЗ причины при увольнении" />
+          <ScalarProperty Name="Вид_кадрового_мероприятия" ColumnName="Вид кадрового мероприятия" />
+          <ScalarProperty Name="ОснованиеСерия" ColumnName="ОснованиеСерия" />
+          <ScalarProperty Name="ОснованиеНомер" ColumnName="ОснованиеНомер" />
+          <ScalarProperty Name="ОснованиеДата" ColumnName="ОснованиеДата" />
+          <ScalarProperty Name="ОснованиеНаименование" ColumnName="ОснованиеНаименование" />
+          <ScalarProperty Name="Сведения_о_приеме_переводах_и_увольнении" ColumnName="Сведения о приеме переводах и увольнении" />
+          <ScalarProperty Name="Дата" ColumnName="Дата" />
+          <ScalarProperty Name="C_пп" ColumnName="№пп" />
+          <ScalarProperty Name="Код_сотрудника" ColumnName="Код сотрудника" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
